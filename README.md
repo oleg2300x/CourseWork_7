@@ -67,3 +67,15 @@ python manage.py csu
 http://localhost:8000/docs/
 http://localhost:8000/redoc/
 ```
+## Развёртывание проэкта 
+Для развертывания проекта после клонирования и создания файла .env вам необходимо установить docker и docker-compose.
+Затем вы можете использовать команды
+```
+docker-compose build
+docker-compose up
+```
+
+или
+```
+docker-compose up -d —build
+```
